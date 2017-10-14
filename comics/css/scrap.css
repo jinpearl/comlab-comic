@@ -1,0 +1,199 @@
+/*this is for hovering over spreads */ 
+			#hover5 {
+				position: absolute;
+				/*opacity: 0;*/
+				background-color: blue;
+				height: 150px;
+				width: 100px;
+				top: 2275px;
+				left: 130px;
+			}
+
+			#hover5:hover{
+				cursor: pointer;
+			}
+
+			#spread1 {
+				position: absolute;
+				background-color: blue;
+				/*display: none;*/
+				height: 150px;
+				width: 190px;
+				top: 2275px;
+				left: 260px;
+			}
+
+					#hover6 {
+						position: absolute;
+						/*opacity: 0;*/
+						background-color: red;
+						height: 150px;
+						width: 100px;
+						top: 2450px;
+						left: 130px;
+					}
+
+					#hover6:hover{
+					 	cursor: pointer;
+					}
+
+					#spread2 {
+						position: absolute;
+						background-color: red;
+						/*display: none;*/
+						height: 150px;
+				width: 190px;
+						top: 2450px;
+						left: 260px;
+					}
+
+							#hover7 {
+								position: absolute;
+								/*opacity: 0;*/
+								background-color: green;
+								height: 150px;
+								width: 100px;
+								top: 2625px;
+								left: 130px;
+							}
+
+							#hover7:hover{
+								cursor: pointer;
+							}
+
+							#spread3 {
+								position: absolute;
+											background-color: green;
+								/*display: none;*/
+								height: 150px;
+								width: 190px;
+								top: 2625px;
+								left: 260px;
+							}
+
+									#hover8 {
+										position: absolute;
+										/*opacity: 0;*/
+										background-color: yellow;
+										height: 150px;
+					  					width: 100px;
+										top: 2800px;
+										left: 130px;
+									}
+
+									#hover8:hover{
+										cursor: pointer;
+									}
+
+									#spread4 {
+										position: absolute;
+										background-color: yellow;
+										/*display: none;*/
+										height: 200px;
+										width: 200px;
+										top: 2800px;
+										left: 260px;
+									}
+
+
+
+/*this is hover cheeses*/
+			#hover9 {
+				position: absolute;
+				/*opacity: 0;*/
+				background-color: blue;
+				height: 150px;
+				width: 190px;
+				top: 3200px;
+				left: 260px;
+			}
+
+			#hover9:hover{
+				cursor: pointer;
+			}
+
+			#cheese1 {
+				position: absolute;
+				background-color: blue;
+				/*display: none;*/
+				height: 150px;
+				width: 250px;
+				top: 3200px;
+				left: 500px;
+			}
+
+					#hover10 {
+						position: absolute;
+						/*opacity: 0;*/
+						background-color: red;
+						height: 150px;
+						width: 190px;
+						top: 3200px;
+						left: 800px;
+					}
+
+					#hover10:hover{
+					 	cursor: pointer;
+					}
+
+					#cheese2 {
+						position: absolute;
+						background-color: red;
+						/*display: none;*/
+						height: 150px;
+						width: 250px;
+						top: 3200px;
+						left: 1025px;
+					}
+
+							#hover11 {
+								position: absolute;
+								/*opacity: 0;*/
+								background-color: green;
+								height: 150px;
+								width: 190px;
+								top: 3500px;
+								left: 530px;
+							}
+
+							#hover11:hover{
+								cursor: pointer;
+							}
+
+							#cheese3 {
+								position: absolute;
+								background-color: green;
+								/*display: none;*/
+								height: 150px;
+								width: 250px;
+								top: 3675px;
+								left: 620px;
+							}
+
+									#hover12 {
+										position: absolute;
+										/*opacity: 0;*/
+										background-color: yellow;
+										height: 100px;
+					  					width: 160px;
+										top: 3550px;
+										left: 1090px;
+									}
+
+									#hover12:hover{
+										cursor: pointer;
+									}
+
+									#cheese4 {
+										position: absolute;
+										background-color: yellow;
+										/*display: none;*/
+										height: 150px;
+										width: 250px;
+										top: 3675px;
+										left: 950px;
+									}
+
+
+
+/*here is for fill*/

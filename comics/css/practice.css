@@ -1,0 +1,138 @@
+.bread {
+	position: absolute;
+	display: block;
+	z-index: 0;
+	text-align: center;
+	height: 65vw;
+	width: 100vw; 
+	top: 59vw;
+	left: 0vw;
+}
+
+		.choose {
+			position: absolute;
+			font-size: 2vw;
+			height: 10vw;
+			width: 80vw;
+			top: 0vw;
+			left: 9vw;
+		}
+
+#whitebread {
+	position: absolute;
+	z-index: 0;
+	width: 20vw;
+	height: 20vw;
+	top: 40vw;
+	left: 100vw;
+}
+				#hover1 {
+					z-index: 1;
+					position: absolute;
+					opacity: 0;
+					/*background-color: blue;*/
+					height: 15vw;
+					width: 15vw;
+					top: 74vw;
+					left: 7vw;
+				}
+
+				#hover1:hover{
+					z-index: 1;
+					cursor: pointer;
+				}
+
+				#bread1 {
+					text-align: center;
+					z-index: 1;
+					position: absolute;
+					background-color: #f5e9d7;
+					display: none;
+					height: 17vw;
+					width: 20vw;
+					top: 89vw;
+					left: 7vw;
+				}
+
+							#hover2 {
+								z-index: 1;
+								position: absolute;
+								opacity: 0;
+								/*background-color: red;*/
+								height: 15vw;
+								width: 15vw;
+								top: 90vw;
+								left: 28vw;
+								}
+
+							#hover2:hover{
+								z-index: 1;
+								cursor: pointer;
+							}
+
+							#bread2 {
+								text-align: center;
+								z-index: 1;
+								position: absolute;
+								background-color: #f5e9d7;
+								display: none;
+								height: 18vw;
+								width: 22vw;
+								top: 74vw;
+								left: 25vw;
+							}
+										#hover3 {
+											z-index: 1;
+											position: absolute;
+											opacity: 0;
+											/*background-color: green;*/
+											height: 15vw;
+											width: 15vw;
+											top: 73vw;
+											left: 47vw;
+										}
+
+										#hover3:hover{
+											z-index: 1;
+											cursor: pointer;
+										}
+
+										#bread3 {
+											text-align: center;
+											z-index: 1;
+											position: absolute;
+											background-color: #f5e9d7;
+											display: none;
+											height: 16vw;
+											width: 20vw;
+											top: 89vw;
+											left: 45vw;
+										}
+
+												#hover4 {
+													z-index: 1;
+													position: absolute;
+													opacity: 0;
+													/*background-color: yellow;*/
+													height: 10vw;
+													width: 22vw;
+													top: 95vw;
+													left: 65vw;
+												}
+
+												#hover4:hover{
+													z-index: 1;
+													cursor: pointer;
+												}
+
+												#bread4 {
+													text-align: center;
+													z-index: 1;
+													position: absolute;
+													background-color: #f5e9d7;
+													display: none;
+													height: 16vw;
+													width: 22vw;
+													top: 78vw;
+													left: 67vw;
+												}

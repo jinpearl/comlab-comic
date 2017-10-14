@@ -1,0 +1,751 @@
+body {
+	background-color: #ffefd5;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.kitchen {
+	display: block;
+	z-index: 0;
+	text-align: center;
+	position: absolute;
+	height: 65vw;
+	width: 100vw; 
+	top: 4vw;
+	left: 0vw;
+}
+
+h1 {
+	position: absolute;
+	top: 0vw;
+	left: 0vw;
+	width: 100vw;
+}
+
+.lettuce {
+	position: absolute;
+	font-size: 5vw;
+	height: 10vw;
+	width: 10vw;
+	top: 23vw;
+	left: 70vw;
+}
+
+.bread {
+	position: absolute;
+	display: block;
+	z-index: 0;
+	text-align: center;
+	height: 65vw;
+	width: 100vw; 
+	top: 59vw;
+	left: 0vw;
+}
+
+		.choose {
+			position: absolute;
+			font-size: 2vw;
+			height: 10vw;
+			width: 80vw;
+			top: 0vw;
+			left: 9vw;
+		}
+
+		
+
+				#hover1 {
+					z-index: 1;
+					position: absolute;
+					opacity: 0;
+					/*background-color: blue;*/
+					height: 15vw;
+					width: 15vw;
+					top: 73vw;
+					left: 7vw;
+				}
+
+				#hover1:hover{
+					z-index: 1;
+					cursor: pointer;
+				}
+
+				#bread1 {
+					text-align: center;
+					z-index: 1;
+					position: absolute;
+					background-color: #f5e9d7;
+					display: none;
+					height: 17vw;
+					width: 20vw;
+					top: 89vw;
+					left: 7vw;
+				}
+
+							#hover2 {
+								z-index: 1;
+								position: absolute;
+								opacity: 0;
+								/*background-color: red;*/
+								height: 15vw;
+								width: 15vw;
+								top: 90vw;
+								left: 28vw;
+								}
+
+							#hover2:hover{
+								z-index: 1;
+								cursor: pointer;
+							}
+
+							#bread2 {
+								text-align: center;
+								z-index: 1;
+								position: absolute;
+								background-color: #f5e9d7;
+								display: none;
+								height: 18vw;
+								width: 22vw;
+								top: 74vw;
+								left: 25vw;
+							}
+										#hover3 {
+											z-index: 1;
+											position: absolute;
+											opacity: 0;
+											/*background-color: green;*/
+											height: 15vw;
+											width: 15vw;
+											top: 73vw;
+											left: 47vw;
+										}
+
+										#hover3:hover{
+											z-index: 1;
+											cursor: pointer;
+										}
+
+										#bread3 {
+											text-align: center;
+											z-index: 1;
+											position: absolute;
+											background-color: #f5e9d7;
+											display: none;
+											height: 16vw;
+											width: 20vw;
+											top: 89vw;
+											left: 45vw;
+										}
+
+												#hover4 {
+													z-index: 1;
+													position: absolute;
+													opacity: 0;
+													/*background-color: yellow;*/
+													height: 10vw;
+													width: 22vw;
+													top: 95vw;
+													left: 65vw;
+												}
+
+												#hover4:hover{
+													z-index: 1;
+													cursor: pointer;
+												}
+
+												#bread4 {
+													text-align: center;
+													z-index: 1;
+													position: absolute;
+													background-color: #f5e9d7;
+													display: none;
+													height: 16vw;
+													width: 22vw;
+													top: 78vw;
+													left: 67vw;
+												}
+
+	
+.toaster {
+	display: block;
+	z-index: 0;
+	text-align: center;
+	position: relative;
+	height: 60vw;
+	width: 99vw; 
+	top: 101vw;
+	left: 0vw;
+}
+
+		.toast {
+			text-align: center;
+			position: absolute;
+			font-size: 3vw;
+			height: 10vw;
+			width: 100vw;
+			top: 0vw;
+			left: 0vw;
+		}
+
+			#toastedArea {
+
+					z-index: 1;
+					position: absolute;
+					background-color: blue;
+					height: 70vw;
+					width: 65vw;
+					top: 113vw;
+					left: 7vw;
+				}
+
+
+
+.condiments {
+	display: block;
+	z-index: 0;
+	text-align: center;
+	position: relative;
+	height: 60vw;
+	width: 100vw; 
+	top: 92vw;
+	left: 0vw;
+}
+
+		.spread {
+			position: absolute;
+			font-size: 2vw;
+			height: 10vw;
+			width: 100vw;
+			top: 2vw;
+			left: 13vw;
+		}
+
+
+			/*here are hover spreads*//*this is for hovering over spreads */ 
+			#hover5 {
+				z-index: 1;
+				position: absolute;
+				opacity: 0;
+				/*background-color: blue;*/
+				height: 10vw;
+				width: 8vw;
+				top: 172vw;
+				left: 8vw;
+			}
+
+			#hover5:hover{
+				z-index: 1;
+				cursor: pointer;
+			}
+
+			#spread1 {
+				text-align: center;
+				z-index: 1;
+				position: absolute;
+				background-color: #abee91;
+				display: none;
+				height: 10vw;
+				width: 17vw;
+				top: 172vw;
+				left: 17vw;
+			}
+
+
+					#hover6 {
+						z-index: 1;
+						position: absolute;
+						opacity: 0;
+						/*background-color: red;*/
+						height: 11vw;
+						width: 8vw;
+						top: 183vw;
+						left: 8vw;
+					}
+
+					#hover6:hover{
+						z-index: 1;
+					 	cursor: pointer;
+					}
+
+					#spread2 {
+						text-align: center;
+						z-index: 1;
+						position: absolute;
+						background-color: #abee91;
+						display: none;
+						height: 10vw;
+						width: 17vw;
+						top: 183vw;
+						left: 17vw;
+					}
+
+							#hover7 {
+								z-index: 1;
+								position: absolute;
+								opacity: 0;
+								/*background-color: green;*/
+								height: 13vw;
+								width: 8vw;
+								top: 194vw;
+								left: 8vw;
+							}
+							#hover7:hover{
+								z-index: 1;
+								cursor: pointer;
+							}
+
+							#spread3 {
+								text-align: center;
+								z-index: 1;
+								position: absolute;
+								background-color: #abee91;
+								display: none;
+								height: 10vw;
+								width: 17vw;
+								top: 195vw;
+								left: 17vw;
+							}
+
+									#hover8 {
+										z-index: 1;
+										position: absolute;
+										opacity: 0;
+										/*background-color: yellow;*/
+										height: 10vw;
+										width: 8vw;
+										top: 207vw;
+										left: 8vw;
+									}
+
+									#hover8:hover{
+										z-index: 1;
+										cursor: pointer;
+									}
+
+									#spread4 {
+										text-align: center;
+										z-index: 1;
+										position: absolute;
+										background-color: #abee91;
+										display: none;
+										height: 10vw;
+										width: 17vw;
+										top: 207vw;
+										left: 17vw;
+									}
+
+
+.cheeses {
+	display: block;
+	z-index: 0;
+	text-align: center;
+	position: relative;
+	height: 65vw;
+	width: 100vw; 
+	top: 84vw;
+	left: 0vw;
+}
+		.dairy {
+			position: absolute;
+			font-size: 2vw;
+			height: 10vw;
+			width: 100vw;
+			top: 36vw;
+			right: 31vw;
+		} 
+
+	/*here are hover cheese*/
+			#hover9 {
+				z-index: 1;
+				position: absolute;
+				opacity: 0;
+				/*background-color: blue;*/
+				height: 10vw;
+				width: 16vw;
+				top: 229vw;
+				left: 16vw;
+			}
+
+			#hover9:hover{
+				z-index: 1;
+				cursor: pointer;
+			}
+
+			#cheese1 {
+				text-align: center;
+				z-index: 1;
+				position: absolute;
+				background-color: white;
+				display: none;
+				height: 18vw;
+				width: 20vw;
+				top: 232vw;
+				left: 33vw;
+			}
+
+					#hover10 {
+						z-index: 1;
+						position: absolute;
+						opacity: 0;
+						/*background-color: red;*/
+						height: 10vw;
+						width: 13vw;
+						top: 230vw;
+						left: 57vw;
+					}
+
+
+					#hover10:hover{
+						z-index: 1;
+					 	cursor: pointer;
+					}
+
+					#cheese2 {
+						text-align: center;
+						z-index: 1;
+						position: absolute;
+						background-color: white;
+						display: none;
+						height: 13vw;
+						width: 20vw;
+						top: 230vw;
+						left: 72vw;
+					}
+
+							#hover11 {
+								z-index: 1;
+								position: absolute;
+								opacity: 0;
+								/*background-color: green;*/
+								height: 10vw;
+								width: 13vw;
+								top: 252vw;
+								left: 38vw;
+							}
+
+							#hover11:hover{
+								z-index: 1;
+								cursor: pointer;
+							}
+
+							#cheese3 {
+								text-align: center;
+								z-index: 1;
+								position: absolute;
+								background-color: white;
+								display: none;
+								height: 13vw;
+								width: 23vw;
+								top: 261vw;
+								left: 37vw;
+							}
+
+
+									#hover12 {
+										z-index: 1;
+										position: absolute;
+										opacity: 0;
+										/*background-color: yellow;*/
+										height: 8vw;
+										width: 13vw;
+										top: 254vw;
+										left: 77vw;
+									}
+
+									#hover12:hover{
+										z-index: 1;
+										cursor: pointer;
+									}
+
+									#cheese4 {
+										text-align: center;
+										z-index: 1;
+										position: absolute;
+										background-color: white;
+										display: none;
+										height: 12vw;
+										width: 23vw;
+										top: 262vw;
+										left: 70vw;
+									}
+
+
+.vegetables {
+	display: block;
+	z-index: 0;
+	text-align: center;
+	position: relative;
+	height: 65vw;
+	width: 100vw; 
+	top: 70vw;
+	left: 0vw;
+}
+
+	.greens {
+			position: absolute;
+			font-size: 3vw;
+			height: 9vw;
+			width: 100vw;
+			top: 0vw;
+			left: 0vw;
+		}
+
+/*here are hover veg*/
+			#hover13 {
+				z-index: 1;
+				position: absolute;
+				opacity: 0;
+				/*background-color: blue;*/
+				height: 13vw;
+				width: 17vw;
+				top: 308vw;
+				left: 24vw;
+			}
+
+			#hover13:hover{
+				z-index: 1;
+				cursor: pointer;
+			}
+
+			#veg1 {
+				text-align: center;
+				z-index: 1;
+				position: absolute;
+				background-color: #fcffd3;
+				display: none;
+				height: 12vw;
+				width: 14vw;
+				top: 296vw;
+				left: 24vw;
+			}
+
+					#hover14 {
+						z-index: 1;
+						position: absolute;
+						opacity: 0;
+						/*background-color: red;*/
+						height: 12vw;
+						width: 20vw;
+						top: 297vw;
+						left: 38vw;
+					}
+
+					#hover14:hover{
+						z-index: 1;
+					 	cursor: pointer;
+					}
+
+					#veg2 {
+						text-align: center;
+						z-index: 1;
+						position: absolute;
+						background-color: #fcffd3;
+						display: none;
+						height: 15vw;
+						width: 16vw;
+						top: 310vw;
+						left: 42vw;
+					}
+
+
+							#hover15 {
+								z-index: 1;
+								position: absolute;
+								opacity: 0;
+								/*background-color: green;*/
+								height: 11vw;
+								width: 15vw;
+								top: 309vw;
+								left: 58vw;
+							}
+
+							#hover15:hover{
+								z-index: 1;
+								cursor: pointer;
+							}
+
+							#veg3 {
+								text-align: center;
+								z-index: 1;
+								position: absolute;
+								background-color: #fcffd3;
+								display: none;
+								height: 12vw;
+								width: 14vw;
+								top: 297vw;
+								left: 60vw;
+							}
+
+
+
+
+.fillings {
+	display: block;
+	z-index: 0;
+	text-align: center;
+	position: relative;
+	height: 65vw;
+	width: 100vw; 
+	top: 57vw;
+	left: 0vw;
+}
+		.fill {
+			position: absolute;
+			font-size: 2vw;
+			height: 9vw;
+			width: 20vw;
+			top: 0vw;
+			left: 7vw;
+		}
+
+	/*here are fill*/
+			#hover16 {
+				z-index: 1;
+				position: absolute;
+				opacity: 0;
+				/*background-color: blue;*/
+				height: 15vw;
+				width: 14vw;
+				top: 369vw;
+				left: 14vw;
+			}
+
+			#hover16:hover{
+				z-index: 1;
+				cursor: pointer;
+			}
+
+			#fill1 {
+				text-align: center;
+				z-index: 1;
+				position: absolute;
+				background-color: #ebccd4;
+				display: none;
+				height: 12vw;
+				width: 22vw;
+				top: 357vw;
+				left: 10vw;
+			}
+
+					#hover17 {
+						z-index: 1;
+						position: absolute;
+						opacity: 0;
+						/*background-color: red;*/
+						height: 12vw;
+						width: 9vw;
+						top: 371vw;
+						left: 48vw;
+					}
+
+					#hover17:hover{
+						z-index: 1;
+					 	cursor: pointer;
+					}
+
+					#fill2 {
+						text-align: center;
+						z-index: 1;
+						position: absolute;
+						background-color: #ebccd4;
+						display: none;
+						height: 14vw;
+						width: 35vw;
+						top: 356vw;
+						left: 35vw;
+					}
+
+							#hover18 {
+								z-index: 1;
+								position: absolute;
+								opacity: 0;
+								/*background-color: green;*/
+								height: 14vw;
+								width: 16vw;
+								top: 370vw;
+								left: 76vw;
+							}
+
+
+							#hover18:hover{
+								z-index: 1;
+								cursor: pointer;
+							}
+
+							#fill3 {
+								text-align: center;
+								z-index: 1;
+								position: absolute;
+								background-color: #ebccd4;
+								display: none;
+								height: 17vw;
+								width: 22vw;
+								top: 353vw;
+								left: 72vw;
+							}
+
+
+									#hover19 {
+										z-index: 1;
+										position: absolute;
+										opacity: 0;
+										/*background-color: yellow;*/
+										height: 13vw;
+										width: 14vw;
+										top: 342vw;
+										left: 42vw;
+									}
+
+									#hover19:hover{
+										z-index: 1;
+										cursor: pointer;
+									}
+
+									#fill4 {
+										text-align: center;
+										z-index: 1;
+										position: absolute;
+										background-color: #ebccd4;
+										display: none;
+										height: 13vw;
+										width: 34vw;
+										top: 342vw;
+										left: 58vw;
+									}
+
+.final {
+	position: absolute;
+	display: block;
+	z-index: 0;
+	text-align: center;
+	height: 60vw;
+	width: 90vw; 
+	top: 395vw;
+	left: 5vw;
+}
+
+#sandwichMakingArea {
+	text-align:center;
+}
+
+#sandwichMakingArea > img {
+	display:block;
+}
+
+.congrats {
+	text-align: center;
+	position: absolute;
+	font-size: 2vw;
+	height: 10vw;
+	width: 80vw;
+	top: 395vw;
+	left: 10vw;
+}
+
+.done {
+	text-align: center;
+	position: absolute;
+	font-size: 3vw;
+	height: 9vw;
+	width: 20vw;
+	top: 39vw;
+	left: 30vw;
+}
